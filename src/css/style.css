@@ -1,0 +1,266 @@
+/*Elementi comuni*/
+body{
+    height: 120%;
+    background-color: #f2f2f2 ;
+}
+html, .container{
+    height: 105%;
+}
+.row{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.testi_grassetto{
+    font-weight: bold;
+    color: #3c4749;
+}
+.testi_verdi{
+    color: #00694f;
+}
+.risultati_verdi{
+    margin-top: 15px;
+    color: #00694f;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+}
+.div_bianchi{
+    background-color: #ffffff;
+}
+.dati_interni{
+    padding-top: 3px;
+    margin: 0px;
+    max-height: 50px;
+}
+.valori{
+    font-weight: bold;
+    margin-left: 5px;
+}
+.row_iniziale{
+    padding-left: 0px;
+}
+.titoli_ultima_sezione{
+    display: inline;
+    float: right;
+}
+.banner{
+    background-color: #78878a;
+    padding: 5px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.titoli{
+    color: #ffffff;
+}
+/*Fine elementi comuni*/
+/*------------------------------------------------------------------*/
+/*CSS footer*/
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+}
+.footer .container {
+    width: auto;
+    padding: 15px 15px;
+    text-align: center;
+}
+/*fine css footer*/
+/*------------------------------------------------------------------*/
+/*CSS header*/
+.head{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#head1{
+    padding-top: 20px;
+}
+.logo{
+    max-width: 55%;
+    float: right;
+}
+.jumbotron{
+    padding-top: 10px;
+    width: 100%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    background-color: white;
+}
+/*fine css header*/
+/*------------------------------------------------------------------*/
+/*Corpo centrale*/
+#info_persona{
+    background-color: #cbdc00;
+}
+#info_persona h2{
+    display: inline;
+}
+#info_persona p{
+    display: inline;
+}
+#info_persona h4{
+    display: inline;
+}
+.info_1{
+    padding: 5px;
+}
+#sezione2{
+    padding-top: 5px;
+}
+.info_2  {
+ float: right;
+}
+.sezione2_1{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.div_datipersonali{
+    padding: 15px;
+    padding-top: 20px;
+}
+#altreRelazioni{
+    margin-top: 20px;
+}
+.risultati_verdi p{
+    padding-top: 0px;
+    margin: 0px;
+}
+#profilo_assicurativo{
+    padding-right: 0px;
+}
+#polizze p{
+    display: inline;
+}
+#sinistri p{
+    display: inline;
+}
+.profilo_assicurativo{
+    background-color: #f2f2f2;
+    margin-top: 15px;
+    min-height: 180px;
+}
+.profilo_assicurativo_1{
+    background-clip: content-box;
+}
+#distanza_fondo{
+    margin-bottom: 70px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+.profilo_assicurativo_1 p{
+    margin-left: 10px;
+}
+.prima_row{
+    padding-top: 10px;
+}
+.ultima_row{
+    padding-bottom: 10px;
+}
+.div_prof_comm{
+    min-height: 195px;
+}
+#polizzeup{
+    background-clip: padding-box;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+#sinistri1{
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+.spazietto_div{
+    margin-top: 3px;
+}
+
+/*fine Corpo Centrale*/
+/*------------------------------------------------------------------*/
+/*Parte laterale Sezione 2*/
+.black_line{
+    height: 5px;
+    background-color: #78878a;
+    margin-top: 10px;
+}
+.img-centrale{
+    margin: auto;
+}
+.banner_laterale{
+    padding: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 6px;
+}
+.informazioni_banner{
+    padding: 15px;
+    margin-bottom: 6px;
+}
+#segno_inline p{
+    display: inline;
+}
+#laterale{
+    padding-right: 0px;
+}
+/*allineamento con le altre sezioni a destra dei banner laterali*/
+.abbassa_banner{
+    margin-top: 18.5px;
+}
+.informazioni_banner .row {
+    padding-bottom: 4px;
+}
+
+#distanza_fondo{
+    padding-right: 0px;
+}
+
+/*Fine Parte laterale Sezione 2*/
+/*------------------------------------------------------------------*/
+/*Risoluzione schermi piccoli*/
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+
+    .logo{
+        max-width: 70%;
+    }
+   #responsive_sinistra {
+        padding-top: 0px;
+        padding-left: 0px;
+        float: left;
+    }
+    .container{
+        margin-right: 0px;
+        margin-left: 0px;
+        width:100%;
+
+    }
+    #laterale{
+        padding-left: 0px;
+    }
+
+    #contatti{
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+
+    .div_prof_comm{
+        padding-left: 0px;
+        margin-bottom: 30px;
+    }
+    #contatti .row{
+        padding-left: 0px;
+    }
+    .logo{
+        height: 100%;
+        width: 100%;
+    }
+    .info_1{
+        padding-left: 0px;
+    }
+
+
+
+}
+/*FIne Risoluzione schermi piccoli*/
+/*------------------------------------------------------------------*/
